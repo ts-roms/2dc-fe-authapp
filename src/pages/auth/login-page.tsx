@@ -112,7 +112,7 @@ const LoginPage = () => {
         <div className='h-full m-auto'>
           <img src="https://png.pngtree.com/element_origin_min_pic/16/07/11/2057838b7a84d73.jpg" alt="..." className='h-screen' />
         </div>
-        <div className='m-auto pb-20 pt-10 px-10 shadow-xl border rounded-md bg-blue-50'>
+        <div className='m-auto w-[400px] pb-20 pt-10 px-10 shadow-xl border rounded-md bg-blue-50'>
           <div className=''>
             <h2 className='flex justify-center mb-5 uppercase font-semibold text-md'>Authentication App</h2>
             <div className={`${!isSuccess ? 'text-green-600' : 'text-red-600'} flex justify-center text-sm pb-2`}>
